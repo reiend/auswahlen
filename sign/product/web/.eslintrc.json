@@ -10,6 +10,9 @@
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "prettier", "jsx-a11y"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "rules": {
     "prettier/prettier": ["error"],
     "no-use-before-define": "off",
