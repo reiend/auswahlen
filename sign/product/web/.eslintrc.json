@@ -9,7 +9,32 @@
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier"],
-   "rules": {
-    "prettier/prettier": "error"
+  "rules": {
+    "prettier/prettier": "error",
+    "no-magic-numbers": "off",
+    "no-redeclare": "off",
+    "no-throw-literal": "off",
+    "no-use-before-define": "off",
+    "space-before-blocks": "off",
+    "no-unused-vars": "off",
+
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-magic-numbers": "error",
+    "@typescript-eslint/no-redeclare": "error",
+    "@typescript-eslint/no-require-imports": "error",
+    "@typescript-eslint/no-throw-literal": "error",
+    "@typescript-eslint/no-unsafe-argument": "error",
+    "@typescript-eslint/no-use-before-define": "error",
+    "@typescript-eslint/no-useless-empty-export": "error",
+    "@typescript-eslint/prefer-as-const": "error",
+    "@typescript-eslint/space-before-blocks": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "@typescript-eslint/no-unsafe-return": "error",
+    "@typescript-eslint/no-unsafe-member-access": "error",
+    "@typescript-eslint/no-unsafe-enum-comparison": "error",
+    "@typescript-eslint/no-unsafe-call": "error",
+    "@typescript-eslint/no-unsafe-assignment": "error",
+    "@typescript-eslint/no-unnecessary-condition": "error"
   }
 }
